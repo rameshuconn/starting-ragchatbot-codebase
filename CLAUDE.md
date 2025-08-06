@@ -80,3 +80,9 @@ Key settings in `backend/config.py`:
 - Static files served with no-cache headers in development mode
 - ChromaDB persistence automatically handled
 - Session IDs auto-generated if not provided in requests
+
+## Dependency Management
+
+- Use `uv` for efficient Python dependency management
+  - Use `uv sync` to install dependencies
+  - Use `uv run` to run Python files or add dependencies
